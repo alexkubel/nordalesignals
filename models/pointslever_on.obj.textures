@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pointlever": "point_lever"
+      },
+      "name": "default"
+    }
+  }
+}

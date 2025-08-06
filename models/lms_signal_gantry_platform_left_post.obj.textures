@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Brown": "lms_signal_brown_1",
+        "White": "lms_signal_lattice_clean_1",
+        "Post": "lms_signal_lattice_1",
+        "Lattice": "lms_signal_lattice_1"
+      },
+      "name": "default"
+    }
+  }
+}

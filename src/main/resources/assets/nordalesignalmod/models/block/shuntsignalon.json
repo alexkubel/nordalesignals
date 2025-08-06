@@ -1,0 +1,7 @@
+{
+  "parent": "nordalesignalmod:custom/shuntsignalon",
+  "textures": {
+    "all": "nordalesignalmod:blocks/shuntsignal",
+    "particle": "nordalesignalmod:blocks/shuntsignal"
+  }
+}

@@ -1,0 +1,1207 @@
+{
+  "id_map": {
+    "GUI": 3
+  },
+  "mod_elements": [
+    {
+      "name": "StandInObject",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShuntSignalRedstoneOff",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShuntSignalRedstoneOn",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShuntSignalOff",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShuntSignalOn",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CableConnecty",
+      "type": "tag",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cable_connecty"
+    },
+    {
+      "name": "PointsMotorOff",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "points_motor_off"
+    },
+    {
+      "name": "PointsMotorToggleOff",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "points_motor_toggle_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PointsMotorOn",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "points_motor_on"
+    },
+    {
+      "name": "PointsMotorToggleOn",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "points_motor_toggle_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Waybill",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waybill"
+    },
+    {
+      "name": "TicketMachineGUI",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      },
+      "registry_name": "ticket_machine_gui"
+    },
+    {
+      "name": "ProcessTicket",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "process_ticket",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "NordalianSignals",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nordalian_signals"
+    },
+    {
+      "name": "PointsLeverOff",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "points_lever_off"
+    },
+    {
+      "name": "PointsLeverOn",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "points_lever_on"
+    },
+    {
+      "name": "PointsLeverToggleOff",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "points_lever_toggle_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PointsLeverToggleOn",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "points_lever_toggle_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SLJRShuntSignalDanger",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sljr_shunt_signal_danger"
+    },
+    {
+      "name": "SLJRShuntSignalGreen",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sljr_shunt_signal_green"
+    },
+    {
+      "name": "SignalPoweredOn",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "signal_powered_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SignalPoweredOff",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "signal_powered_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ControlBox",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      },
+      "registry_name": "control_box"
+    },
+    {
+      "name": "SignalCableRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "signal_cable_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SignalCable",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "signal_cable"
+    },
+    {
+      "name": "ContollerBoxRedstoneOn",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "contoller_box_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ContollerBox",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "contoller_box"
+    },
+    {
+      "name": "ControlBoxRedstoneOff",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "control_box_redstone_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TileEntitySignalRedstoneOn",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tile_entity_signal_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TileEntitySignal",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "tile_entity_signal"
+    },
+    {
+      "name": "ControllerModifyOn",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "controller_modify_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LMSSignalWoodPostBase",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "lms_signal_wood_post_base"
+    },
+    {
+      "name": "LMSSignalWoodPostMid",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "lms_signal_wood_post_mid"
+    },
+    {
+      "name": "LMSSignalWoodPostBackplateTop",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_wood_post_backplate_top"
+    },
+    {
+      "name": "LMSSignalWoodPostTop",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_wood_post_top"
+    },
+    {
+      "name": "LMSSignalPostLadder",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_post_ladder"
+    },
+    {
+      "name": "LMSSignalUQDanger",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_uq_danger"
+    },
+    {
+      "name": "LMSSignalUQClear",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_uq_clear"
+    },
+    {
+      "name": "LMSCautionUQDanger",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_caution_uq_danger"
+    },
+    {
+      "name": "LMSCautionUQClear",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_caution_uq_clear"
+    },
+    {
+      "name": "LMSGantryLatticeBase",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_lattice_base"
+    },
+    {
+      "name": "LMSGantryLatticeLower",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_lattice_lower"
+    },
+    {
+      "name": "LMSGantryLatticeMid",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_lattice_mid"
+    },
+    {
+      "name": "LMSGantryCentre",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_centre"
+    },
+    {
+      "name": "LMSGantryLeft",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_left"
+    },
+    {
+      "name": "LMSGantryRight",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_right"
+    },
+    {
+      "name": "LMSGantryBuilder",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_builder",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LMSGantryCentrePost",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_centre_post"
+    },
+    {
+      "name": "LMSGantryLeftPost",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_left_post"
+    },
+    {
+      "name": "LMSGantryRightPost",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_right_post"
+    },
+    {
+      "name": "LMSWoodPostBuilder",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_wood_post_builder",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SignalStand8",
+      "type": "gui",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      },
+      "registry_name": "signal_stand_8"
+    },
+    {
+      "name": "SignalsControlStand",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "signals_control_stand"
+    },
+    {
+      "name": "LMSWoodPostDismantle",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_wood_post_dismantle",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LMSSignalWoodPostLower",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_wood_post_lower"
+    },
+    {
+      "name": "LMSGantryLadder",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_ladder"
+    },
+    {
+      "name": "LMSSignalLatticePostMid",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_lattice_post_mid"
+    },
+    {
+      "name": "LMSSignalLatticeTop",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_lattice_top"
+    },
+    {
+      "name": "LMSSignalLatticeTopAccessory",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_lattice_top_accessory"
+    },
+    {
+      "name": "LMSLatticePostBuilder",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_lattice_post_builder",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LMSGantryCentreLattice",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_centre_lattice"
+    },
+    {
+      "name": "LMSGantryLeftLattice",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_left_lattice"
+    },
+    {
+      "name": "LMSGantryRightLattice",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_gantry_right_lattice"
+    },
+    {
+      "name": "LMSSignalWoodPostBlackplateMid",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_wood_post_blackplate_mid"
+    },
+    {
+      "name": "LMSSignalLatticeBackplateMid",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_lattice_backplate_mid"
+    },
+    {
+      "name": "LMSLatticePostDismantle",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_lattice_post_dismantle",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LMSRailPostMid",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_rail_post_mid"
+    },
+    {
+      "name": "LMSRailPostTop",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_rail_post_top"
+    },
+    {
+      "name": "LMSRailPostTopBackplate",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_rail_post_top_backplate"
+    },
+    {
+      "name": "LMSRailPostMidBackplate",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_rail_post_mid_backplate"
+    },
+    {
+      "name": "LMSSignalUQCallDanger",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_uq_call_danger"
+    },
+    {
+      "name": "LMSSignalUQCallClear",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_uq_call_clear"
+    },
+    {
+      "name": "LMSSignalUQMiniDanger",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_uq_mini_danger"
+    },
+    {
+      "name": "LMSSignalUQMiniClear",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_uq_mini_clear"
+    },
+    {
+      "name": "LMSSignalUQGoodsDanger",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_uq_goods_danger"
+    },
+    {
+      "name": "LMSSignalUQGoodsClear",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_uq_goods_clear"
+    },
+    {
+      "name": "LMSSignalUQShuntLoopDanger",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_uq_shunt_loop_danger"
+    },
+    {
+      "name": "LMSSignalUQShuntLoopClear",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_uq_shunt_loop_clear"
+    },
+    {
+      "name": "LMSSignalLatticeRule55Plate",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_lattice_rule_55_plate"
+    },
+    {
+      "name": "LMSRailPostRule55Plate",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_rail_post_rule_55_plate"
+    },
+    {
+      "name": "LMSSignalWoodPostRule55Plate",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_signal_wood_post_rule_55_plate"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "signalplace",
+      "files": [
+        "place"
+      ],
+      "category": "block",
+      "subtitle": "signal placed"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "tile.standinobject.name": "Stand In Object",
+      "tile.lms_gantry_lattice_base.name": "Gantry Lattice Base",
+      "tile.lms_rail_post_mid_backplate.name": "Rail Signal Post Midle with Backplate",
+      "tile.lms_caution_uq_danger.name": "Upper Quadrant Caution",
+      "tile.lms_gantry_right_post.name": "LMS Gantry Left Post",
+      "tile.lms_gantry_right.name": "LMS Gantry Left",
+      "itemGroup.tabnordalian_signals": "Nordalian Signals",
+      "item.waybill.name": "Waybill",
+      "tile.lms_signal_wood_post_backplate_top.name": "Wooden Signal Post Backplate Top",
+      "tile.lms_gantry_centre.name": "LMS Gantry Centre",
+      "tile.lms_gantry_ladder.name": "Signal Gantry Ladder",
+      "tile.lms_signal_uq_goods_clear.name": "LMS Signal UQ Goods Clear",
+      "tile.points_motor_on.name": "Active Points Motor",
+      "tile.points_motor_off.name": "Points Motor",
+      "tile.lms_signal_post_ladder.name": "Signal Post Ladder",
+      "tile.lms_gantry_centre_post.name": "LMS Gantry Centre Post",
+      "tile.lms_rail_post_top_backplate.name": "Rail Signal Post Top Backplate",
+      "tile.lms_gantry_right_lattice.name": "Signal Gantry Right Lattice",
+      "tile.lms_gantry_centre_lattice.name": "Signal Gantry Centre Lattice",
+      "tile.lms_signal_wood_post_mid.name": "Wooden Signal Post Mid",
+      "tile.lms_signal_uq_danger.name": "Upper Quadrant Signal",
+      "tile.lms_signal_wood_post_rule_55_plate.name": "Wooden Signal Post, Rule 55 Plate",
+      "tile.lms_gantry_left.name": "LMS Gantry Right",
+      "tile.lms_signal_uq_goods_danger.name": "Upper Quadrant Goods Loop Signal",
+      "tile.lms_signal_lattice_post_mid.name": "Lattice Signal Post Mid",
+      "tile.lms_signal_wood_post_top.name": "Wooden Signal Post Top",
+      "tile.lms_signal_wood_post_blackplate_mid.name": "LMS Signal Wood Post Blackplate Mid",
+      "tile.lms_signal_uq_call_danger.name": "Upper Quadrant Call On Signal",
+      "tile.lms_signal_uq_shunt_loop_danger.name": "Upper Quadrant Shunt Loop Signal",
+      "tile.lms_gantry_lattice_lower.name": "LMS Gantry Lattice Lower",
+      "tile.lms_signal_lattice_top.name": "Lattice Signal Post Top",
+      "tile.lms_signal_wood_post_lower.name": "Wooden Signal Post Lower",
+      "tile.lms_rail_post_rule_55_plate.name": "Rai Signal Post Rule 55 Plate",
+      "tile.contoller_box.name": "Contoller Box",
+      "tile.lms_signal_uq_call_clear.name": "LMS Signal UQ Call Clear",
+      "tile.signals_control_stand.name": "Signals Control Stand",
+      "tile.lms_signal_uq_shunt_loop_clear.name": "LMS Signal UQ Shunt Loop Clear",
+      "tile.shuntsignalon.name": "Shunt Signal On",
+      "tile.sljr_shunt_signal_danger.name": "SLJR Shunt Signal",
+      "tile.points_lever_on.name": "Points Lever",
+      "tile.lms_signal_lattice_backplate_mid.name": "Lattice Signal Mast Backplate Mid",
+      "item.signal_cable.name": "Signal Cable",
+      "tile.lms_signal_wood_post_base.name": "Wooden Signal Post Base",
+      "tile.lms_signal_lattice_top_accessory.name": "LMS Signal Lattice Backplate Top",
+      "tile.lms_rail_post_top.name": "Rail Signal Post Top",
+      "tile.lms_signal_uq_clear.name": "Upper Quadrant Signal",
+      "tile.points_lever_off.name": "Points Lever",
+      "subtitles.signalplace": "signal placed",
+      "tile.lms_rail_post_mid.name": "Rail Signal Post Middle",
+      "tile.lms_caution_uq_clear.name": "Upper Quadrant Caution",
+      "tile.sljr_shunt_signal_green.name": "SLJR Shunt Signal Green",
+      "tile.lms_signal_lattice_rule_55_plate.name": "Lattice Signal Post Rule 55 Plate",
+      "tile.tile_entity_signal.name": "Tile Entity Signal",
+      "tile.lms_gantry_left_lattice.name": "Signal Gantry Left Lattice",
+      "tile.lms_gantry_left_post.name": "LMS Gantry Right Post",
+      "tile.lms_gantry_lattice_mid.name": "LMS Gantry Lattice Mid",
+      "tile.lms_signal_uq_mini_danger.name": "Upper Quadrant Mini Signal",
+      "tile.lms_signal_uq_mini_clear.name": "LMS Signal UQ Mini Clear",
+      "tile.shuntsignaloff.name": "Shunt Signal"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "nordalesignalmod",
+    "modName": "Nordale Signal Mod",
+    "version": "0.4.0",
+    "description": "The Nordale  Signals Mod",
+    "author": "Akieve",
+    "websiteURL": "https://mcreator.net",
+    "license": "Apache License version 2.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "nordale_signals_mod_small",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.nordalesignalmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

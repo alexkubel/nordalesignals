@@ -1,0 +1,46 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "nordalesignalmod:lms_post_wood_55.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#minisema": "nordalesignalmod:blocks/lms_miniutre_semaphore_body",
+      "#Lattice": "nordalesignalmod:blocks/lms_signal_post_1"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "nordalesignalmod:lms_post_wood_55.obj"
+    },
+    "facing=north": {
+      "model": "nordalesignalmod:lms_post_wood_55.obj"
+    },
+    "facing=east": {
+      "model": "nordalesignalmod:lms_post_wood_55.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nordalesignalmod:lms_post_wood_55.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nordalesignalmod:lms_post_wood_55.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "nordalesignalmod:lms_post_wood_55.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "nordalesignalmod:lms_post_wood_55.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

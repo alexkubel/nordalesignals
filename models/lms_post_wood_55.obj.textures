@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "minisema": "lms_miniutre_semaphore_body",
+        "Lattice": "lms_signal_post_1"
+      },
+      "name": "default"
+    }
+  }
+}

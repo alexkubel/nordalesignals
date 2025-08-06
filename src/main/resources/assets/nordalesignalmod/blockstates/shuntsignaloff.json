@@ -1,0 +1,45 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "nordalesignalmod:shuntsignaldanger.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#signal": "nordalesignalmod:blocks/shuntsignal"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj"
+    },
+    "facing=north": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj"
+    },
+    "facing=east": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

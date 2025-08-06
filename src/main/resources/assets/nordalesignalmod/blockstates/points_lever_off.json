@@ -1,0 +1,45 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "nordalesignalmod:pointslever_off.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#point_lever": "nordalesignalmod:blocks/point_lever"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "nordalesignalmod:pointslever_off.obj"
+    },
+    "facing=north": {
+      "model": "nordalesignalmod:pointslever_off.obj"
+    },
+    "facing=east": {
+      "model": "nordalesignalmod:pointslever_off.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nordalesignalmod:pointslever_off.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nordalesignalmod:pointslever_off.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "nordalesignalmod:pointslever_off.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "nordalesignalmod:pointslever_off.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

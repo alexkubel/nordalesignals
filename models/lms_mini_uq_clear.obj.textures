@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Signal": "lms_signal_main_1",
+        "Post": "lms_signal_post_1"
+      },
+      "name": "default"
+    }
+  }
+}

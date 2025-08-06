@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "nordalesignalmod:signals_control_stand"
+    },
+    "facing=north": {
+      "model": "nordalesignalmod:signals_control_stand"
+    },
+    "facing=east": {
+      "model": "nordalesignalmod:signals_control_stand",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nordalesignalmod:signals_control_stand",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nordalesignalmod:signals_control_stand",
+      "y": 270
+    }
+  }
+}

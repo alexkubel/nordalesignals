@@ -1,0 +1,71 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:ShuntSignalOff"
+      },
+      {
+        "value": "CUSTOM:ShuntSignalOn"
+      },
+      {
+        "value": "CUSTOM:PointsMotorOff"
+      },
+      {
+        "value": "CUSTOM:PointsMotorOn"
+      },
+      {
+        "value": "CUSTOM:ShuntSignalOff"
+      },
+      {
+        "value": "CUSTOM:ShuntSignalOn"
+      },
+      {
+        "value": "CUSTOM:PointsMotorOff"
+      },
+      {
+        "value": "CUSTOM:PointsMotorOn"
+      },
+      {
+        "value": "CUSTOM:PointsLeverOff"
+      },
+      {
+        "value": "CUSTOM:PointsLeverOn"
+      },
+      {
+        "value": "CUSTOM:SLJRShuntSignalDanger"
+      },
+      {
+        "value": "CUSTOM:SLJRShuntSignalGreen"
+      },
+      {
+        "value": "CUSTOM:ShuntSignalOn"
+      },
+      {
+        "value": "CUSTOM:PointsMotorOff"
+      },
+      {
+        "value": "CUSTOM:PointsMotorOn"
+      },
+      {
+        "value": "CUSTOM:PointsLeverOff"
+      },
+      {
+        "value": "CUSTOM:PointsLeverOn"
+      },
+      {
+        "value": "CUSTOM:SLJRShuntSignalDanger"
+      },
+      {
+        "value": "CUSTOM:SLJRShuntSignalGreen"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "cable_connecty",
+    "namespace": "forge"
+  }
+}

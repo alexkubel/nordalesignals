@@ -1,0 +1,12 @@
+{
+  "signalplace": {
+    "category": "block",
+    "subtitle": "subtitles.signalplace",
+    "sounds": [
+      {
+        "name": "nordalesignalmod:place",
+        "stream": false
+      }
+    ]
+  }
+}

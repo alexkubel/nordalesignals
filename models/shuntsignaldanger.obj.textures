@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "signal": "shuntsignal"
+      },
+      "name": "default"
+    }
+  }
+}

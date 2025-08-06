@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "nordalesignalmod:contoller_box"
+    },
+    "facing=north": {
+      "model": "nordalesignalmod:contoller_box"
+    },
+    "facing=east": {
+      "model": "nordalesignalmod:contoller_box",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nordalesignalmod:contoller_box",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nordalesignalmod:contoller_box",
+      "y": 270
+    }
+  }
+}

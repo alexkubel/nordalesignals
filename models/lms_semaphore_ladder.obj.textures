@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Ladder": "lms_signal_ladder_1"
+      },
+      "name": "default"
+    }
+  }
+}

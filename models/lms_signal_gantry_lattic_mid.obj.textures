@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Lattice": "lms_signal_lattice_1"
+      },
+      "name": "default"
+    }
+  }
+}

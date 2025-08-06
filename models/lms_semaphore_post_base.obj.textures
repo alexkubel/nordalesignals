@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Base": "lms_signal_base_1"
+      },
+      "name": "default"
+    }
+  }
+}

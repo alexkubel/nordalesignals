@@ -1,0 +1,439 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 224,
+    "height": 189,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 14,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 114,
+          "y": 30
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 258,
+          "y": 30
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 132,
+          "y": 30
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 150,
+          "y": 30
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #5",
+          "x": 276,
+          "y": 30
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #6",
+          "x": 294,
+          "y": 30
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lvr5",
+          "width": 30,
+          "height": 20,
+          "name": "Lvr5",
+          "x": 213,
+          "y": 30
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lvr1",
+          "width": 30,
+          "height": 20,
+          "name": "Lvr1",
+          "x": 177,
+          "y": 30
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #7",
+          "x": 114,
+          "y": 57
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lvr2",
+          "width": 30,
+          "height": 20,
+          "name": "Lvr2",
+          "x": 177,
+          "y": 57
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 8,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #8",
+          "x": 132,
+          "y": 57
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 9,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #9",
+          "x": 150,
+          "y": 57
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 10,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #10",
+          "x": 258,
+          "y": 57
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 11,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #11",
+          "x": 276,
+          "y": 57
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 12,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #12",
+          "x": 294,
+          "y": 57
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 13,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #13",
+          "x": 114,
+          "y": 84
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 14,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #14",
+          "x": 132,
+          "y": 84
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 15,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #15",
+          "x": 150,
+          "y": 84
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 16,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #16",
+          "x": 258,
+          "y": 84
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 17,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #17",
+          "x": 276,
+          "y": 84
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 18,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #18",
+          "x": 294,
+          "y": 84
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 19,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #19",
+          "x": 114,
+          "y": 111
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 20,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #20",
+          "x": 132,
+          "y": 111
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 21,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #21",
+          "x": 150,
+          "y": 111
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 22,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #22",
+          "x": 258,
+          "y": 111
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 23,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #23",
+          "x": 276,
+          "y": 111
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SignalCable"
+          },
+          "id": 24,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #24",
+          "x": 294,
+          "y": 111
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lvr3",
+          "width": 30,
+          "height": 20,
+          "name": "Lvr3",
+          "x": 177,
+          "y": 84
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lvr4",
+          "width": 30,
+          "height": 20,
+          "name": "Lvr4",
+          "x": 177,
+          "y": 111
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lvr6",
+          "width": 30,
+          "height": 20,
+          "name": "Lvr6",
+          "x": 213,
+          "y": 57
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lvr7",
+          "width": 30,
+          "height": 20,
+          "name": "Lvr7",
+          "x": 213,
+          "y": 84
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lvr8",
+          "width": 30,
+          "height": 20,
+          "name": "Lvr8",
+          "x": 213,
+          "y": 111
+        }
+      }
+    ]
+  }
+}

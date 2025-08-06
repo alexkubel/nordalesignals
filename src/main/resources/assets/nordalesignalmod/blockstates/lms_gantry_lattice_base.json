@@ -1,0 +1,45 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "nordalesignalmod:lms_signal_gantry_lattic_base.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#Lattice": "nordalesignalmod:blocks/lms_signal_lattice_1"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "nordalesignalmod:lms_signal_gantry_lattic_base.obj"
+    },
+    "facing=north": {
+      "model": "nordalesignalmod:lms_signal_gantry_lattic_base.obj"
+    },
+    "facing=east": {
+      "model": "nordalesignalmod:lms_signal_gantry_lattic_base.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nordalesignalmod:lms_signal_gantry_lattic_base.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nordalesignalmod:lms_signal_gantry_lattic_base.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "nordalesignalmod:lms_signal_gantry_lattic_base.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "nordalesignalmod:lms_signal_gantry_lattic_base.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

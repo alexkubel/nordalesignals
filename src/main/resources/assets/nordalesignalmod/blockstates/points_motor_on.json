@@ -1,0 +1,45 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "nordalesignalmod:points_motor.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#Material": "nordalesignalmod:blocks/point_motor"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "nordalesignalmod:points_motor.obj"
+    },
+    "facing=north": {
+      "model": "nordalesignalmod:points_motor.obj"
+    },
+    "facing=east": {
+      "model": "nordalesignalmod:points_motor.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nordalesignalmod:points_motor.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nordalesignalmod:points_motor.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "nordalesignalmod:points_motor.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "nordalesignalmod:points_motor.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

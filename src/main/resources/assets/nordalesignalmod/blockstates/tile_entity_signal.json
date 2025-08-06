@@ -1,0 +1,68 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "nordalesignalmod:shuntsignaldanger.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#signal": "nordalesignalmod:blocks/shuntsignal"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj"
+    },
+    "facing=north,powered=false": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj"
+    },
+    "facing=north,powered=true": {
+      "model": "nordalesignalmod:shuntsignalgreen.obj"
+    },
+    "facing=east,powered=false": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj",
+      "y": 90
+    },
+    "facing=east,powered=true": {
+      "model": "nordalesignalmod:shuntsignalgreen.obj",
+      "y": 90
+    },
+    "facing=south,powered=false": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj",
+      "y": 180
+    },
+    "facing=south,powered=true": {
+      "model": "nordalesignalmod:shuntsignalgreen.obj",
+      "y": 180
+    },
+    "facing=west,powered=false": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj",
+      "y": 270
+    },
+    "facing=west,powered=true": {
+      "model": "nordalesignalmod:shuntsignalgreen.obj",
+      "y": 270
+    },
+    "facing=up,powered=false": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj",
+      "x": 90
+    },
+    "facing=up,powered=true": {
+      "model": "nordalesignalmod:shuntsignalgreen.obj",
+      "x": 90
+    },
+    "facing=down,powered=false": {
+      "model": "nordalesignalmod:shuntsignaldanger.obj",
+      "x": 270
+    },
+    "facing=down,powered=true": {
+      "model": "nordalesignalmod:shuntsignalgreen.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

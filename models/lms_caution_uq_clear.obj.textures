@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Signal_caustion": "lms_signal_danger_1"
+      },
+      "name": "default"
+    }
+  }
+}

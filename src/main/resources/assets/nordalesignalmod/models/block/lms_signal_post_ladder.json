@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nordalesignalmod:blocks/lms_signal_ladder_1",
+    "up": "nordalesignalmod:blocks/lms_signal_ladder_1",
+    "north": "nordalesignalmod:blocks/lms_signal_ladder_1",
+    "east": "nordalesignalmod:blocks/lms_signal_ladder_1",
+    "south": "nordalesignalmod:blocks/lms_signal_ladder_1",
+    "west": "nordalesignalmod:blocks/lms_signal_ladder_1",
+    "particle": "nordalesignalmod:blocks/lms_signal_ladder_1"
+  }
+}

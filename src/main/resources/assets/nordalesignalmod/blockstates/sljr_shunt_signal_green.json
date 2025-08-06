@@ -1,0 +1,45 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "nordalesignalmod:sljrshuntgreen.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#sljr_shunt_signal": "nordalesignalmod:blocks/sljr_shunt_signal"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "nordalesignalmod:sljrshuntgreen.obj"
+    },
+    "facing=north": {
+      "model": "nordalesignalmod:sljrshuntgreen.obj"
+    },
+    "facing=east": {
+      "model": "nordalesignalmod:sljrshuntgreen.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nordalesignalmod:sljrshuntgreen.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nordalesignalmod:sljrshuntgreen.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "nordalesignalmod:sljrshuntgreen.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "nordalesignalmod:sljrshuntgreen.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

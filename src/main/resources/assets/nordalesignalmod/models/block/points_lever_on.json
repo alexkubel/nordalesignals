@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nordalesignalmod:blocks/testing2",
+    "up": "nordalesignalmod:blocks/cakeholder",
+    "north": "nordalesignalmod:blocks/cakeholder",
+    "east": "nordalesignalmod:blocks/testing2",
+    "south": "nordalesignalmod:blocks/testing2",
+    "west": "nordalesignalmod:blocks/testing2",
+    "particle": "nordalesignalmod:blocks/testing2"
+  }
+}
