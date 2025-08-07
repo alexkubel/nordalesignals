@@ -57,7 +57,7 @@ public class BlockLMSSignalUQCallDanger extends ElementsNordalesignalmodMod.ModE
 			setHarvestLevel("pickaxe", 1);
 			setHardness(1F);
 			setResistance(10F);
-			setLightLevel(0F);
+			setLightLevel(0.666666666667F);
 			setLightOpacity(0);
 			setCreativeTab(TabNordalianSignals.tab);
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));

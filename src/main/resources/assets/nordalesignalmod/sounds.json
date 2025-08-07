@@ -8,5 +8,15 @@
         "stream": false
       }
     ]
+  },
+  "pointsmotor": {
+    "category": "block",
+    "subtitle": "subtitles.pointsmotor",
+    "sounds": [
+      {
+        "name": "nordalesignalmod:pointmotorig",
+        "stream": false
+      }
+    ]
   }
 }

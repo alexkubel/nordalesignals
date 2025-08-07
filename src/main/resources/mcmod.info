@@ -3,7 +3,7 @@
     "modid": "nordalesignalmod",
     "name": "Nordale Signal Mod",
     "description": "The Nordale  Signals Mod",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "logoFile": "assets/nordalesignalmod/textures/nordale_signals_mod_small.png",
     "mcversion": "1.12.2",

@@ -25,8 +25,12 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.Block;
 
+import net.mcreator.nordalesignalmod.procedure.ProcedureLMSRailPostBuilder;
 import net.mcreator.nordalesignalmod.creativetab.TabNordalianSignals;
 import net.mcreator.nordalesignalmod.ElementsNordalesignalmodMod;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @ElementsNordalesignalmodMod.ModElement.Tag
 public class BlockLMSRailPostTop extends ElementsNordalesignalmodMod.ModElement {
@@ -103,6 +107,22 @@ public class BlockLMSRailPostTop extends ElementsNordalesignalmodMod.ModElement 
 		@Override
 		public boolean isOpaqueCube(IBlockState state) {
 			return false;
+		}
+
+		@Override
+		public void onBlockAdded(World world, BlockPos pos, IBlockState state) {
+			super.onBlockAdded(world, pos, state);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureLMSRailPostBuilder.executeProcedure($_dependencies);
+			}
 		}
 	}
 }

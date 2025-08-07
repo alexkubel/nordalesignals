@@ -16,8 +16,8 @@ import net.mcreator.nordalesignalmod.block.BlockPointsMotorOn;
 import net.mcreator.nordalesignalmod.block.BlockPointsMotorOff;
 import net.mcreator.nordalesignalmod.block.BlockPointsLeverOn;
 import net.mcreator.nordalesignalmod.block.BlockPointsLeverOff;
-import net.mcreator.nordalesignalmod.block.BlockLMSSignalUQShuntLoopDanger;
-import net.mcreator.nordalesignalmod.block.BlockLMSSignalUQShuntLoopClear;
+import net.mcreator.nordalesignalmod.block.BlockLNWRMiniLQDanger;
+import net.mcreator.nordalesignalmod.block.BlockLNWRMiniLQClear;
 import net.mcreator.nordalesignalmod.block.BlockLMSSignalUQMiniDanger;
 import net.mcreator.nordalesignalmod.block.BlockLMSSignalUQMiniClear;
 import net.mcreator.nordalesignalmod.block.BlockLMSSignalUQGoodsDanger;
@@ -88,6 +88,22 @@ public class ProcedureSignalPoweredOn extends ElementsNordalesignalmodMod.ModEle
 				}
 				world.setBlockState(_bp, _bs, 3);
 			}
+		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == BlockLNWRMiniLQDanger.block.getDefaultState()
+				.getBlock())) {
+			world.playSound((EntityPlayer) null, x, y, z,
+					(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("block.lever.click")),
+					SoundCategory.NEUTRAL, (float) 10, (float) 1);
+			{
+				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				IBlockState _bs = BlockLNWRMiniLQClear.block.getDefaultState();
+				IBlockState _bso = world.getBlockState(_bp);
+				for (Map.Entry<IProperty<?>, Comparable<?>> entry : _bso.getProperties().entrySet()) {
+					IProperty _property = entry.getKey();
+					if (_bs.getPropertyKeys().contains(_property))
+						_bs = _bs.withProperty(_property, (Comparable) entry.getValue());
+				}
+				world.setBlockState(_bp, _bs, 3);
+			}
 		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == BlockLMSSignalUQDanger.block.getDefaultState()
 				.getBlock())) {
 			world.playSound((EntityPlayer) null, x, y, z, (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY
@@ -106,7 +122,7 @@ public class ProcedureSignalPoweredOn extends ElementsNordalesignalmodMod.ModEle
 		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == BlockPointsLeverOff.block.getDefaultState()
 				.getBlock())) {
 			world.playSound((EntityPlayer) null, x, y, z, (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY
-					.getObject(new ResourceLocation("block.iron_trapdoor.close")), SoundCategory.NEUTRAL, (float) 10, (float) 1);
+					.getObject(new ResourceLocation("nordalesignalmod:pointsmotor")), SoundCategory.NEUTRAL, (float) 10, (float) 1);
 			{
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				IBlockState _bs = BlockPointsLeverOn.block.getDefaultState();
@@ -121,7 +137,7 @@ public class ProcedureSignalPoweredOn extends ElementsNordalesignalmodMod.ModEle
 		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == BlockPointsMotorOff.block.getDefaultState()
 				.getBlock())) {
 			world.playSound((EntityPlayer) null, x, y, z, (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY
-					.getObject(new ResourceLocation("block.iron_trapdoor.close")), SoundCategory.NEUTRAL, (float) 10, (float) 1);
+					.getObject(new ResourceLocation("nordalesignalmod:pointsmotor")), SoundCategory.NEUTRAL, (float) 10, (float) 1);
 			{
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				IBlockState _bs = BlockPointsMotorOn.block.getDefaultState();
@@ -185,21 +201,6 @@ public class ProcedureSignalPoweredOn extends ElementsNordalesignalmodMod.ModEle
 			{
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				IBlockState _bs = BlockLMSSignalUQGoodsClear.block.getDefaultState();
-				IBlockState _bso = world.getBlockState(_bp);
-				for (Map.Entry<IProperty<?>, Comparable<?>> entry : _bso.getProperties().entrySet()) {
-					IProperty _property = entry.getKey();
-					if (_bs.getPropertyKeys().contains(_property))
-						_bs = _bs.withProperty(_property, (Comparable) entry.getValue());
-				}
-				world.setBlockState(_bp, _bs, 3);
-			}
-		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == BlockLMSSignalUQShuntLoopDanger.block
-				.getDefaultState().getBlock())) {
-			world.playSound((EntityPlayer) null, x, y, z, (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY
-					.getObject(new ResourceLocation("block.iron_trapdoor.close")), SoundCategory.NEUTRAL, (float) 10, (float) 1);
-			{
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-				IBlockState _bs = BlockLMSSignalUQShuntLoopClear.block.getDefaultState();
 				IBlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<IProperty<?>, Comparable<?>> entry : _bso.getProperties().entrySet()) {
 					IProperty _property = entry.getKey();

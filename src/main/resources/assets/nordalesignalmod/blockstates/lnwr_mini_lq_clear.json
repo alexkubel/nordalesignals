@@ -1,0 +1,45 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "nordalesignalmod:minature_lq_clear.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#minisemaarm": "nordalesignalmod:blocks/lms_signal_miniture_1"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "nordalesignalmod:minature_lq_clear.obj"
+    },
+    "facing=north": {
+      "model": "nordalesignalmod:minature_lq_clear.obj"
+    },
+    "facing=east": {
+      "model": "nordalesignalmod:minature_lq_clear.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nordalesignalmod:minature_lq_clear.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nordalesignalmod:minature_lq_clear.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "nordalesignalmod:minature_lq_clear.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "nordalesignalmod:minature_lq_clear.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

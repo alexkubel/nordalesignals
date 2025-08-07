@@ -7,7 +7,7 @@
     },
     "textures": {
       "#Signal": "nordalesignalmod:blocks/lms_signal_main_1",
-      "#Post": "nordalesignalmod:blocks/testing2"
+      "#Post": "nordalesignalmod:blocks/lms_signal_post_1"
     }
   },
   "variants": {

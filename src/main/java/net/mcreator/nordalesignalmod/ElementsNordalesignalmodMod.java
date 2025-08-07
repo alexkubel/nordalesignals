@@ -60,6 +60,8 @@ public class ElementsNordalesignalmodMod implements IFuelHandler, IWorldGenerato
 	public ElementsNordalesignalmodMod() {
 		sounds.put(new ResourceLocation("nordalesignalmod", "signalplace"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("nordalesignalmod", "signalplace")));
+		sounds.put(new ResourceLocation("nordalesignalmod", "pointsmotor"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("nordalesignalmod", "pointsmotor")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {

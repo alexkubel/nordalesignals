@@ -1,0 +1,45 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "nordalesignalmod:minature_semaphore_addon.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#minisema": "nordalesignalmod:blocks/lms_miniutre_semaphore_body"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "nordalesignalmod:minature_semaphore_addon.obj"
+    },
+    "facing=north": {
+      "model": "nordalesignalmod:minature_semaphore_addon.obj"
+    },
+    "facing=east": {
+      "model": "nordalesignalmod:minature_semaphore_addon.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nordalesignalmod:minature_semaphore_addon.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nordalesignalmod:minature_semaphore_addon.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "nordalesignalmod:minature_semaphore_addon.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "nordalesignalmod:minature_semaphore_addon.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

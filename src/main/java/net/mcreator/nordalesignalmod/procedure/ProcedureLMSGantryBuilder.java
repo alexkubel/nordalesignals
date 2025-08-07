@@ -2,6 +2,9 @@ package net.mcreator.nordalesignalmod.procedure;
 
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.properties.IProperty;
 
@@ -39,6 +42,8 @@ public class ProcedureLMSGantryBuilder extends ElementsNordalesignalmodMod.ModEl
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+		world.playSound((EntityPlayer) null, x, y, z, (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY
+				.getObject(new ResourceLocation("nordalesignalmod:signalplace")), SoundCategory.NEUTRAL, (float) 1, (float) 1);
 		if (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == BlockLMSGantryLatticeBase.block.getDefaultState()
 				.getBlock())) {
 			{

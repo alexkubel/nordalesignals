@@ -40,9 +40,8 @@ public class ProcedurePointsMotorToggleOff extends ElementsNordalesignalmodMod.M
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		world.playSound((EntityPlayer) null, x, y, z,
-				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("block.anvil.use")),
-				SoundCategory.NEUTRAL, (float) 3, (float) 1);
+		world.playSound((EntityPlayer) null, x, y, z, (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY
+				.getObject(new ResourceLocation("nordalesignalmod:pointsmotor")), SoundCategory.NEUTRAL, (float) 3, (float) 1);
 		{
 			BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 			IBlockState _bs = BlockPointsMotorOff.block.getDefaultState();

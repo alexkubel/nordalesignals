@@ -377,7 +377,7 @@
       "type": "procedure",
       "sortid": 23,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "signal_cable_right_clicked_on_block",
       "metadata": {
@@ -835,7 +835,7 @@
       "type": "block",
       "sortid": 49,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "lms_gantry_ladder"
     },
@@ -1103,6 +1103,321 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lms_signal_wood_post_rule_55_plate"
+    },
+    {
+      "name": "LMSPostTubeMid",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_post_tube_mid"
+    },
+    {
+      "name": "SignalPull1",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "signal_pull_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SignalPull2",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "signal_pull_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SignalPull3",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "signal_pull_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SignalPull4",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "signal_pull_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SignalPull5",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "signal_pull_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SignalPull6",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "signal_pull_6",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SignalPull7",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "signal_pull_7",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SignalPull8",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "signal_pull_8",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LMSWoodPostMidBlack",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "lms_wood_post_mid_black"
+    },
+    {
+      "name": "LNWRMinatureSemaphoreBox",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lnwr_minature_semaphore_box"
+    },
+    {
+      "name": "LNWRMiniLQDanger",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lnwr_mini_lq_danger"
+    },
+    {
+      "name": "LNWRMiniLQClear",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lnwr_mini_lq_clear"
+    },
+    {
+      "name": "LMSPostTubeTop",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_post_tube_top"
+    },
+    {
+      "name": "LMSRailPostBuilder",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lms_rail_post_builder",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1114,6 +1429,14 @@
       ],
       "category": "block",
       "subtitle": "signal placed"
+    },
+    {
+      "name": "pointsmotor",
+      "files": [
+        "pointmotorig"
+      ],
+      "category": "block",
+      "subtitle": "points Motor Moves"
     }
   ],
   "language_map": {
@@ -1128,7 +1451,9 @@
       "item.waybill.name": "Waybill",
       "tile.lms_signal_wood_post_backplate_top.name": "Wooden Signal Post Backplate Top",
       "tile.lms_gantry_centre.name": "LMS Gantry Centre",
+      "tile.lnwr_mini_lq_danger.name": "LNWR Mini Lower Quadrant Signal",
       "tile.lms_gantry_ladder.name": "Signal Gantry Ladder",
+      "tile.lms_wood_post_mid_black.name": "Wooden Signal Post Mid",
       "tile.lms_signal_uq_goods_clear.name": "LMS Signal UQ Goods Clear",
       "tile.points_motor_on.name": "Active Points Motor",
       "tile.points_motor_off.name": "Points Motor",
@@ -1137,6 +1462,7 @@
       "tile.lms_rail_post_top_backplate.name": "Rail Signal Post Top Backplate",
       "tile.lms_gantry_right_lattice.name": "Signal Gantry Right Lattice",
       "tile.lms_gantry_centre_lattice.name": "Signal Gantry Centre Lattice",
+      "tile.lms_post_tube_top.name": "Tubular Steel Signal Post Top",
       "tile.lms_signal_wood_post_mid.name": "Wooden Signal Post Mid",
       "tile.lms_signal_uq_danger.name": "Upper Quadrant Signal",
       "tile.lms_signal_wood_post_rule_55_plate.name": "Wooden Signal Post, Rule 55 Plate",
@@ -1146,6 +1472,7 @@
       "tile.lms_signal_wood_post_top.name": "Wooden Signal Post Top",
       "tile.lms_signal_wood_post_blackplate_mid.name": "LMS Signal Wood Post Blackplate Mid",
       "tile.lms_signal_uq_call_danger.name": "Upper Quadrant Call On Signal",
+      "tile.lnwr_mini_lq_clear.name": "LNWR Mini LQ Clear",
       "tile.lms_signal_uq_shunt_loop_danger.name": "Upper Quadrant Shunt Loop Signal",
       "tile.lms_gantry_lattice_lower.name": "LMS Gantry Lattice Lower",
       "tile.lms_signal_lattice_top.name": "Lattice Signal Post Top",
@@ -1154,6 +1481,7 @@
       "tile.contoller_box.name": "Contoller Box",
       "tile.lms_signal_uq_call_clear.name": "LMS Signal UQ Call Clear",
       "tile.signals_control_stand.name": "Signals Control Stand",
+      "subtitles.pointsmotor": "points Motor Moves",
       "tile.lms_signal_uq_shunt_loop_clear.name": "LMS Signal UQ Shunt Loop Clear",
       "tile.shuntsignalon.name": "Shunt Signal On",
       "tile.sljr_shunt_signal_danger.name": "SLJR Shunt Signal",
@@ -1162,7 +1490,9 @@
       "item.signal_cable.name": "Signal Cable",
       "tile.lms_signal_wood_post_base.name": "Wooden Signal Post Base",
       "tile.lms_signal_lattice_top_accessory.name": "LMS Signal Lattice Backplate Top",
+      "tile.lms_post_tube_mid.name": "Tubular Steel Signal Post",
       "tile.lms_rail_post_top.name": "Rail Signal Post Top",
+      "tile.lnwr_minature_semaphore_box.name": "LNWR Minature Semaphore Box",
       "tile.lms_signal_uq_clear.name": "Upper Quadrant Signal",
       "tile.points_lever_off.name": "Points Lever",
       "subtitles.signalplace": "signal placed",
@@ -1186,7 +1516,7 @@
   "workspaceSettings": {
     "modid": "nordalesignalmod",
     "modName": "Nordale Signal Mod",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "The Nordale  Signals Mod",
     "author": "Akieve",
     "websiteURL": "https://mcreator.net",

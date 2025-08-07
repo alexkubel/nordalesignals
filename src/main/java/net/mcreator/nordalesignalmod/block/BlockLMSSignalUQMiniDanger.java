@@ -13,9 +13,11 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.properties.PropertyDirection;
@@ -27,6 +29,8 @@ import net.minecraft.block.Block;
 
 import net.mcreator.nordalesignalmod.creativetab.TabNordalianSignals;
 import net.mcreator.nordalesignalmod.ElementsNordalesignalmodMod;
+
+import java.util.List;
 
 @ElementsNordalesignalmodMod.ModElement.Tag
 public class BlockLMSSignalUQMiniDanger extends ElementsNordalesignalmodMod.ModElement {
@@ -57,10 +61,16 @@ public class BlockLMSSignalUQMiniDanger extends ElementsNordalesignalmodMod.ModE
 			setHarvestLevel("pickaxe", 1);
 			setHardness(1F);
 			setResistance(10F);
-			setLightLevel(0F);
+			setLightLevel(0.666666666667F);
 			setLightOpacity(0);
 			setCreativeTab(TabNordalianSignals.tab);
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
+		}
+
+		@Override
+		public void addInformation(ItemStack itemstack, World world, List<String> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add("Minature Home Signal");
 		}
 
 		@SideOnly(Side.CLIENT)

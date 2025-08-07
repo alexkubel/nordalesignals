@@ -6,7 +6,7 @@
       "flip-v": true
     },
     "textures": {
-      "#point_lever": "nordalesignalmod:blocks/point_lever"
+      "#pointlever": "nordalesignalmod:blocks/point_lever"
     }
   },
   "variants": {

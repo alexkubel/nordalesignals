@@ -13,7 +13,7 @@
     "rotationMode": 1,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "home",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

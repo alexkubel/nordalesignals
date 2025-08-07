@@ -1,0 +1,45 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "nordalesignalmod:lms_post_rail_top.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#Post": "nordalesignalmod:blocks/lms_signal_post_1"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "nordalesignalmod:lms_post_rail_top.obj"
+    },
+    "facing=north": {
+      "model": "nordalesignalmod:lms_post_rail_top.obj"
+    },
+    "facing=east": {
+      "model": "nordalesignalmod:lms_post_rail_top.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nordalesignalmod:lms_post_rail_top.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nordalesignalmod:lms_post_rail_top.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "nordalesignalmod:lms_post_rail_top.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "nordalesignalmod:lms_post_rail_top.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}

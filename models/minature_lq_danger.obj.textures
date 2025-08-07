@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "minisemaarm": "lms_signal_miniture_1"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 3,
     "customModelName": "lms_post_rail_55:default",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",

@@ -7,6 +7,8 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
@@ -16,8 +18,12 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
+import net.mcreator.nordalesignalmod.procedure.ProcedureLMSRailPostBuilder;
 import net.mcreator.nordalesignalmod.creativetab.TabNordalianSignals;
 import net.mcreator.nordalesignalmod.ElementsNordalesignalmodMod;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @ElementsNordalesignalmodMod.ModElement.Tag
 public class BlockLMSRailPostMidBackplate extends ElementsNordalesignalmodMod.ModElement {
@@ -61,6 +67,22 @@ public class BlockLMSRailPostMidBackplate extends ElementsNordalesignalmodMod.Mo
 		@Override
 		public boolean isOpaqueCube(IBlockState state) {
 			return false;
+		}
+
+		@Override
+		public void onBlockAdded(World world, BlockPos pos, IBlockState state) {
+			super.onBlockAdded(world, pos, state);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureLMSRailPostBuilder.executeProcedure($_dependencies);
+			}
 		}
 	}
 }

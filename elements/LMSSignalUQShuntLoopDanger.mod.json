@@ -13,7 +13,7 @@
     "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "loop",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -33,7 +33,9 @@
       }
     ],
     "name": "Upper Quadrant Shunt Loop Signal",
-    "specialInfo": [],
+    "specialInfo": [
+      "Shunting Loop Signal"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -74,7 +76,7 @@
     "soundOnStep": {
       "value": "METAL"
     },
-    "luminance": 0,
+    "luminance": 10,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,

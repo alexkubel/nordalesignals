@@ -6,7 +6,8 @@
       "flip-v": true
     },
     "textures": {
-      "#Ladder": "nordalesignalmod:blocks/lms_signal_ladder_1"
+      "#Ladder": "nordalesignalmod:blocks/lms_signal_ladder_1",
+      "layer0": "nordalesignalmod:items/gantryladder"
     }
   },
   "variants": {

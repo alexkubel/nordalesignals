@@ -24,6 +24,14 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
+import net.mcreator.nordalesignalmod.procedure.ProcedureSignalPull8;
+import net.mcreator.nordalesignalmod.procedure.ProcedureSignalPull7;
+import net.mcreator.nordalesignalmod.procedure.ProcedureSignalPull6;
+import net.mcreator.nordalesignalmod.procedure.ProcedureSignalPull5;
+import net.mcreator.nordalesignalmod.procedure.ProcedureSignalPull4;
+import net.mcreator.nordalesignalmod.procedure.ProcedureSignalPull3;
+import net.mcreator.nordalesignalmod.procedure.ProcedureSignalPull2;
+import net.mcreator.nordalesignalmod.procedure.ProcedureSignalPull1;
 import net.mcreator.nordalesignalmod.item.ItemSignalCable;
 import net.mcreator.nordalesignalmod.NordalesignalmodMod;
 import net.mcreator.nordalesignalmod.ElementsNordalesignalmodMod;
@@ -59,17 +67,11 @@ public class GuiSignalStand8 extends ElementsNordalesignalmodMod.ModElement {
 			this.x = x;
 			this.y = y;
 			this.z = z;
-			this.internal = new InventoryBasic("", true, 25);
+			this.internal = new InventoryBasic("", true, 32);
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
 			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 13, 5) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
-				}
-			}));
-			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 157, 5) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
@@ -87,121 +89,119 @@ public class GuiSignalStand8 extends ElementsNordalesignalmodMod.ModElement {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 175, 5) {
+			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 157, 5) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 193, 5) {
+			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 175, 5) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 13, 32) {
+			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 193, 5) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(8, this.addSlotToContainer(new Slot(internal, 8, 31, 32) {
+			this.customSlots.put(9, this.addSlotToContainer(new Slot(internal, 9, 13, 32) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(9, this.addSlotToContainer(new Slot(internal, 9, 49, 32) {
+			this.customSlots.put(10, this.addSlotToContainer(new Slot(internal, 10, 31, 32) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(10, this.addSlotToContainer(new Slot(internal, 10, 157, 32) {
+			this.customSlots.put(11, this.addSlotToContainer(new Slot(internal, 11, 49, 32) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(11, this.addSlotToContainer(new Slot(internal, 11, 175, 32) {
+			this.customSlots.put(13, this.addSlotToContainer(new Slot(internal, 13, 157, 32) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(12, this.addSlotToContainer(new Slot(internal, 12, 193, 32) {
+			this.customSlots.put(14, this.addSlotToContainer(new Slot(internal, 14, 175, 32) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(13, this.addSlotToContainer(new Slot(internal, 13, 13, 59) {
+			this.customSlots.put(15, this.addSlotToContainer(new Slot(internal, 15, 193, 32) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(14, this.addSlotToContainer(new Slot(internal, 14, 31, 59) {
+			this.customSlots.put(17, this.addSlotToContainer(new Slot(internal, 17, 13, 59) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(15, this.addSlotToContainer(new Slot(internal, 15, 49, 59) {
+			this.customSlots.put(18, this.addSlotToContainer(new Slot(internal, 18, 31, 59) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(16, this.addSlotToContainer(new Slot(internal, 16, 157, 59) {
+			this.customSlots.put(19, this.addSlotToContainer(new Slot(internal, 19, 49, 59) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(17, this.addSlotToContainer(new Slot(internal, 17, 175, 59) {
+			this.customSlots.put(21, this.addSlotToContainer(new Slot(internal, 21, 157, 59) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(18, this.addSlotToContainer(new Slot(internal, 18, 193, 59) {
+			this.customSlots.put(22, this.addSlotToContainer(new Slot(internal, 22, 175, 59) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(19, this.addSlotToContainer(new Slot(internal, 19, 13, 86) {
+			this.customSlots.put(23, this.addSlotToContainer(new Slot(internal, 23, 193, 59) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(20, this.addSlotToContainer(new Slot(internal, 20, 31, 86) {
+			this.customSlots.put(25, this.addSlotToContainer(new Slot(internal, 25, 13, 86) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(21, this.addSlotToContainer(new Slot(internal, 21, 49, 86) {
+			this.customSlots.put(26, this.addSlotToContainer(new Slot(internal, 26, 31, 86) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(22, this.addSlotToContainer(new Slot(internal, 22, 157, 86) {
+			this.customSlots.put(27, this.addSlotToContainer(new Slot(internal, 27, 49, 86) {
+			}));
+			this.customSlots.put(29, this.addSlotToContainer(new Slot(internal, 29, 157, 86) {
+			}));
+			this.customSlots.put(30, this.addSlotToContainer(new Slot(internal, 30, 175, 86) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(23, this.addSlotToContainer(new Slot(internal, 23, 175, 86) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
-				}
-			}));
-			this.customSlots.put(24, this.addSlotToContainer(new Slot(internal, 24, 193, 86) {
+			this.customSlots.put(31, this.addSlotToContainer(new Slot(internal, 31, 193, 86) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(ItemSignalCable.block, (int) (1)).getItem() == stack.getItem());
@@ -542,6 +542,86 @@ public class GuiSignalStand8 extends ElementsNordalesignalmodMod.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureSignalPull5.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureSignalPull1.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 2) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureSignalPull2.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 3) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureSignalPull3.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 4) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureSignalPull4.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 5) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureSignalPull6.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 6) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureSignalPull7.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 7) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureSignalPull8.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(EntityPlayer entity, int slotID, int changeType, int meta, int x, int y, int z) {

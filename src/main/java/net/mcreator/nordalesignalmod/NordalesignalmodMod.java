@@ -45,7 +45,7 @@ import java.util.function.Supplier;
 @Mod(modid = NordalesignalmodMod.MODID, version = NordalesignalmodMod.VERSION)
 public class NordalesignalmodMod {
 	public static final String MODID = "nordalesignalmod";
-	public static final String VERSION = "0.4.0";
+	public static final String VERSION = "0.4.1";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("nordalesignalmod:a");
 	@SidedProxy(clientSide = "net.mcreator.nordalesignalmod.ClientProxyNordalesignalmodMod", serverSide = "net.mcreator.nordalesignalmod.ServerProxyNordalesignalmodMod")
 	public static IProxyNordalesignalmodMod proxy;

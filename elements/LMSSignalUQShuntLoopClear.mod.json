@@ -33,7 +33,9 @@
       }
     ],
     "name": "LMS Signal UQ Shunt Loop Clear",
-    "specialInfo": [],
+    "specialInfo": [
+      "You shouldn't have this"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -74,7 +76,7 @@
     "soundOnStep": {
       "value": "METAL"
     },
-    "luminance": 0,
+    "luminance": 10,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,

@@ -2,17 +2,20 @@ package net.mcreator.nordalesignalmod.procedure;
 
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.properties.IProperty;
 
 import net.mcreator.nordalesignalmod.block.BlockLMSSignalLatticeTopAccessory;
 import net.mcreator.nordalesignalmod.block.BlockLMSSignalLatticeTop;
+import net.mcreator.nordalesignalmod.block.BlockLMSSignalLatticePostMid;
 import net.mcreator.nordalesignalmod.block.BlockLMSSignalLatticeBackplateMid;
 import net.mcreator.nordalesignalmod.block.BlockLMSGantryRightLattice;
 import net.mcreator.nordalesignalmod.block.BlockLMSGantryRight;
 import net.mcreator.nordalesignalmod.block.BlockLMSGantryLeftLattice;
 import net.mcreator.nordalesignalmod.block.BlockLMSGantryLeft;
-import net.mcreator.nordalesignalmod.block.BlockLMSGantryLatticeMid;
 import net.mcreator.nordalesignalmod.block.BlockLMSGantryCentreLattice;
 import net.mcreator.nordalesignalmod.block.BlockLMSGantryCentre;
 import net.mcreator.nordalesignalmod.ElementsNordalesignalmodMod;
@@ -46,11 +49,13 @@ public class ProcedureLMSLatticePostBuilder extends ElementsNordalesignalmodMod.
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+		world.playSound((EntityPlayer) null, x, y, z, (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY
+				.getObject(new ResourceLocation("nordalesignalmod:signalplace")), SoundCategory.NEUTRAL, (float) 1, (float) 1);
 		if (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == BlockLMSSignalLatticeTop.block.getDefaultState()
 				.getBlock())) {
 			{
 				BlockPos _bp = new BlockPos((int) x, (int) (y - 1), (int) z);
-				IBlockState _bs = BlockLMSGantryLatticeMid.block.getDefaultState();
+				IBlockState _bs = BlockLMSSignalLatticePostMid.block.getDefaultState();
 				IBlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<IProperty<?>, Comparable<?>> entry : _bso.getProperties().entrySet()) {
 					IProperty _property = entry.getKey();

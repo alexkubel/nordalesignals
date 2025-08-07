@@ -7,7 +7,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraft.item.ItemStack;
 import net.minecraft.creativetab.CreativeTabs;
 
-import net.mcreator.nordalesignalmod.block.BlockStandInObject;
+import net.mcreator.nordalesignalmod.item.ItemSignalCable;
 import net.mcreator.nordalesignalmod.ElementsNordalesignalmodMod;
 
 @ElementsNordalesignalmodMod.ModElement.Tag
@@ -22,7 +22,7 @@ public class TabNordalianSignals extends ElementsNordalesignalmodMod.ModElement 
 			@SideOnly(Side.CLIENT)
 			@Override
 			public ItemStack getTabIconItem() {
-				return new ItemStack(BlockStandInObject.block, (int) (1));
+				return new ItemStack(ItemSignalCable.block, (int) (1));
 			}
 
 			@SideOnly(Side.CLIENT)

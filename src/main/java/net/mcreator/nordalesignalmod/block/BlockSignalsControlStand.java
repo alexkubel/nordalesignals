@@ -178,10 +178,10 @@ public class BlockSignalsControlStand extends ElementsNordalesignalmodMod.ModEle
 	}
 
 	public static class TileEntityCustom extends TileEntityLockableLoot {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(25, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(32, ItemStack.EMPTY);
 		@Override
 		public int getSizeInventory() {
-			return 25;
+			return 32;
 		}
 
 		@Override
